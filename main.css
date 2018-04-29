@@ -1,0 +1,186 @@
+body {
+    background-image: url("starwars.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+#btnTweet {
+    color: #ffffff;
+    background-color: #00aced;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+
+.center-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#facebook-button {
+    background-color: #3b5998;
+    color: #ffffff;
+    width: 60px;
+    border-color: #ffffff;
+}
+
+#twitter-button {
+    background-color: #00aced;
+    color: #ffffff;
+    width: 60px;
+    border-color: #ffffff;
+}
+
+#github-button {
+    background-color: #24292e;
+    color: #ffffff;
+    width: 60px;
+    border-color: #ffffff;
+}
+
+#freecodecamp-button {
+    background-color: #006400;
+    color: #ffffff;
+    width: 60px;
+    border-color: #ffffff;
+}
+
+#codepen-button {
+    background-color: #000000;
+    color: #ffffff;
+    width: 60px;
+    border-color: #ffffff;
+}
+
+#twitter-button:hover,
+#facebook-button:hover,
+#github-button:hover,
+#freecodecamp-button:hover,
+#codepen-button:hover {
+    background-color: #000000;
+    color: #f1d600;
+}
+
+#twitter-button,
+#facebook-button,
+#github-button,
+#freecodecamp-button,
+#codepen-button {
+    margin: 20px;
+}
+
+
+#divisao1 {
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+#tweetInput {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+    color: #f1d600;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #f1d600;
+}
+
+#titulo {
+    text-align: center;
+    color: #f1d600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    border: 25px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+#meinverted {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#mesepia {
+    filter: sepia(1);
+}
+
+#meblur {
+    filter: blur(2px);
+}
+
+#meflipped {
+        -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipV;
+        -ms-filter: "FlipV";
+}
+
+#medoubleflipped {
+   -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+
+.thumbnail {
+      position: relative;
+  width: 225px;
+  height: 325px;
+  overflow: hidden;
+margin-left: 75px;
+}
